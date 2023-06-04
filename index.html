@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="./index.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RocketLinks</title>
   </head>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@500;700&display=swap" 
-  rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css"/>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./styles.css" />
 
   <body class="dark-blue">
     <div class="container">
-
       <img
-      class="avatar" 
-      src="https://github.com/gabriel01souza.png" 
-      alt="Imagem de perfil GitHub"  />
-      <h1>Gabriel</h1>
+        class="avatar"
+        src="./858F884C-5C1A-4E4A-93E0-57772AF19A29.JPG"
+        alt="Imagem de perfil GitHub"
+      />
+      <h1>Gabriel Cardoso de Souza</h1>
       <p class="username">Bem vindo!</p>
       <ul>
         <li>
-          <a href="https://github.com/gabriel01souza" target="_blank">💡 GitHub</a>
+          <a href="https://github.com/gabriel01souza" target="_blank"
+            >💡 GitHub</a
+          >
         </li>
         <li>
-          <a href="https://www.facebook.com/" target="_blank">💻 Facebook</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/" target="_blank">
-            🚀 Linkedin
-          </a>
+          <a href="https://www.linkedin.com/" target="_blank"> 🚀 Linkedin </a>
         </li>
       </ul>
 
+      <div class="line"></div>
+
+      <section>
+        <details id="details">
+          <summary onclick="addClass()">About me:</summary>
+          <p>
+            <p>Age: 19 years.</p> <br>
+           <p>Developer Full Stack.</p> <br>
+           <p>Bachelor of Computer Science (Furb University of Blumenau). </p><br>
+           <p>Hometown: Blumenau.</p> <br>
+           <p>Studying English in: Folks English Course. (Intermediate)</p>
+          </p>
+        </details>
+      </section>
+
       <footer>Made with ❤️ by Rocketseat and Gabriel</footer>
-  </div>
+    </div>
   </body>
 </html>
